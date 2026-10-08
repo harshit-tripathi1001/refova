@@ -19,3 +19,4 @@ jobs:
           source_repo: "aditya-yadav1176/refova"
           source_branch: "main"
           destination_branch: "main"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
